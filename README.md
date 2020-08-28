@@ -1,6 +1,9 @@
 # dbench
 Benchmark Kubernetes persistent disk volumes with `fio`: Read/write IOPS, bandwidth MB/s and latency.
 
+## Docker image:
+`markthebault/dbench:latest`
+
 # Usage
 
 1. Download [dbench.yaml](https://raw.githubusercontent.com/logdna/dbench/master/dbench.yaml) and edit the `storageClassName` to match your Kubernetes provider's Storage Class `kubectl get storageclasses`
